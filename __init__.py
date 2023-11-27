@@ -136,3 +136,7 @@ def main():
             return func.HttpResponse(
                 json.dumps({"message": "Failed to process request"}), status_code=400
             )
+
+
+if __name__ == "__main__":
+    main()
